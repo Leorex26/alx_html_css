@@ -52,3 +52,134 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+/* Style for the logo */
+.logo {
+    font-size: 2rem;
+    color: #FFD700; /* Gold color for the star */
+    margin-right: 1rem;
+}
+
+/* Header with a gradient background */
+header {
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Space between logo and text */
+}
+
+/* Main area styling */
+main {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 2px solid #007BFF; /* Blue border */
+    margin: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Article styling */
+article {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 1rem;
+}
+
+/* Aside styling */
+aside {
+    background-color: #f4f4f4;
+    border-left: 3px solid #007BFF; /* Left border to distinguish aside */
+    padding: 1rem;
+}
+
+/* Footer with a solid background */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 10px;
+    border-top: 2px solid #007BFF; /* Top border for footer */
+}
+
+/* Add hover effect to links (if any in article) */
+article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+/* Header with a gradient background */
+header {
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem; /* Space between logo and text */
+}
+
+/* Main area styling */
+main {
+    background-color: #f0f8ff; /* Light blue background */
+    border: 2px solid #007BFF; /* Blue border */
+    margin: 10px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Article styling */
+article {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+    padding: 1rem;
+}
+
+/* Aside styling */
+aside {
+    background-color: #f4f4f4;
+    border-left: 3px solid #007BFF; /* Left border to distinguish aside */
+    padding: 1rem;
+}
+
+/* Footer with a solid background */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 10px;
+    border-top: 2px solid #007BFF; /* Top border for footer */
+}
+
+/* Add hover effect to links (if any in article) */
+article a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+article h2 {
+    color: #007BFF;
+    margin-bottom: 0.5rem;
+}
+
+article ul {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+}
+
+article li {
+    margin: 0.5rem 0;
+}
