@@ -1,10 +1,9 @@
-body {
+#body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1b1010;
 }
 
-/* Header Styling */
 header {
     background-color: #f8f9fa;
     padding: 20px 40px;
@@ -203,4 +202,95 @@ section.quote h3 {
 section.quote p {
     font-size: 16px;
     color: #555555;
+}
+/* Videos List Section */
+section.videos-list {
+    padding: 60px 20px;
+    background-color: #ffffff;
+}
+
+section.videos-list h2 {
+    text-align: center;
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 40px;
+}
+
+/* Video Cards Grid */
+section.videos-list .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Video Card */
+section.videos-list .video-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section.videos-list .video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+section.videos-list .video-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+section.videos-list .video-card .content {
+    padding: 20px;
+}
+
+section.videos-list .video-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+section.videos-list .video-card p {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+/* Author Info */
+section.videos-list .video-card .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+section.videos-list .video-card .author img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+section.videos-list .video-card .author h4 {
+    font-size: 16px;
+    color: #333333;
+}
+
+/* Star Ratings */
+section.videos-list .video-card .ratings {
+    display: flex;
+    gap: 5px;
+    color: #ffc107;
+    margin-bottom: 10px;
+}
+
+section.videos-list .video-card .duration {
+    font-size: 14px;
+    color: #777777;
 }
