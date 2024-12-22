@@ -1,11 +1,7 @@
 body {
-    background-color: lightblue;
-}
-/* General Styles */
-body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    color: #333;
+    color: #1b1010;
 }
 
 /* Header Styling */
@@ -43,7 +39,6 @@ header nav ul li a:hover {
     color: #0056b3;
 }
 
-/* First Section Styling */
 section:first-of-type {
     display: flex;
     justify-content: space-between;
@@ -117,4 +112,95 @@ section:first-of-type div:last-child div div h3 {
 section:first-of-type div:last-child div div p {
     font-size: 14px;
     color: #777777;
+}
+/* General Utility Styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.primary {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+button.primary:hover {
+    background-color: #0056b3;
+}
+
+/* Typography */
+h1, h2, h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    color: #777777;
+}
+/* Quote Section Styling */
+section.quote {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+section.quote .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.quote img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    flex: 1 1 40%; /* Adjusts based on Figma's layout */
+}
+
+section.quote blockquote {
+    flex: 1 1 50%;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.6;
+    color: #333333;
+    padding: 20px;
+    border-left: 5px solid #007bff;
+}
+
+section.quote h3 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+
+section.quote p {
+    font-size: 16px;
+    color: #555555;
 }
