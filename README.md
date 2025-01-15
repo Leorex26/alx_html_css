@@ -1,4 +1,4 @@
-# CSS Advanced Project - README
+# General Review - README
 
 ## Overview
 This project, **CSS Advanced**, focused on applying advanced CSS techniques to build a fully functional web page. It involved implementing a Figma design into a clean, responsive HTML/CSS page without using any external frameworks or libraries. The project took place from **December 15, 2024, 3:00 PM** to **December 22, 2024, 3:00 PM** and was manually reviewed by **Tarila Elayelagha** on **December 22, 2024, 2:55 AM**, earning an overall score of **97.33%**.
